@@ -1,7 +1,21 @@
 /*⚠️ NO MODIFIQUES EL NOMBRE DE LAS DECLARACIONES ⚠️*/
 /*5️⃣ EJERCICIO 05 5️⃣*/
 
-
+function esPositivo(num) {
+   // La función recibe un entero. Devuelve como resultado un string que indica si el número
+   // es positivo o negativo.
+   // Si el número es positivo ---> "Es positivo".
+   // Si el número es negativo ---> "Es negativo".
+   // Si el número es 0, devuelve False.
+   // Tu código:
+   if (num > 0) {
+      return ("Es positivo")
+   } else if (num < 0) {
+      return ("Es negativo")
+   } else {
+      return (false)
+   }
+}
 
 function agregarSimboloExclamacion(str) {
    // Agrega un símbolo de exclamación al final del string "str" y retórnalo
@@ -23,7 +37,7 @@ function obtenerSaludo(nombre) {
    // Toma el string "nombre" y concatena otra string en la cadena para que tome la siguiente forma:
    // Ejemplo: "Martin" ---> "Hola Martin!"
    // Tu código:
-   let saludo = ("Hola " + nombre +"!")
+   let saludo = ("Hola " + nombre + "!")
    return (saludo)
 }
 
@@ -55,7 +69,7 @@ function deEuroAdolar(euro) {
    // Tu código:
    let dolares = 1.20;
    let operacion = (euro * dolares)
-   return(operacion)
+   return (operacion)
 }
 
 function esVocal(letra) {
@@ -64,11 +78,11 @@ function esVocal(letra) {
    // Si no es vocal, tambien debe retornar "Dato incorrecto".
    // Tu código:
    if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
-      return("Es vocal")
+      return ("Es vocal")
    } else if (letra.length > 1) {
-      return("Dato incorrecto")
+      return ("Dato incorrecto")
    } else {
-      return("Dato incorrecto")
+      return ("Dato incorrecto")
    }
 }
 

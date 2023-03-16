@@ -252,6 +252,7 @@ function continueStatement(num) {
          continue
       } else {
          valor.push(suma);
+         
       }
    }
    return(valor)
